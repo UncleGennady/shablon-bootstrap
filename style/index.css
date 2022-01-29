@@ -1,0 +1,73 @@
+.container {
+  max-width: px;
+}
+
+.gap-sm {
+  gap: 5px;
+}
+
+.gap-md {
+  gap: 10px;
+}
+
+.gap-lg {
+  gap: 15px;
+}
+
+.gap-xl {
+  gap: 20px;
+}
+
+.gap-xxl {
+  gap: 30px;
+}
+
+@media (max-width: px) {
+  .container,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+    max-width: px;
+  }
+}
+@media (max-width: px) {
+  .container,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+    max-width: px;
+  }
+  .container .header__icon,
+.container-xl .header__icon,
+.container-lg .header__icon,
+.container-md .header__icon,
+.container-sm .header__icon {
+    justify-content: start !important;
+  }
+}
+@media (max-width: px) {
+  .container,
+.container-lg,
+.container-md,
+.container-sm {
+    max-width: px;
+  }
+}
+@media (max-width: px) {
+  .container,
+.container-md,
+.container-sm {
+    max-width: px;
+  }
+}
+@media (max-width: px) {
+  .container,
+.container-sm {
+    max-width: px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

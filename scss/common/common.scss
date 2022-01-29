@@ -1,0 +1,71 @@
+.container {
+    max-width: $breakpoint_xxl;
+}
+
+.gap-sm {
+    gap: 5px;
+}
+
+.gap-md {
+    gap: 10px;
+}
+
+.gap-lg {
+    gap: 15px;
+}
+
+.gap-xl {
+    gap: 20px;
+}
+
+.gap-xxl {
+    gap: 30px;
+}
+
+@include desktop {
+    .container,
+    .container-xxl,
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm {
+        max-width: $breakpoint_xl;
+    }
+}
+
+@include laptop {
+    .container,
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm {
+        max-width: $breakpoint_lg;
+        .header__icon {
+            justify-content: start !important;
+        }
+    }
+}
+
+@include tablet {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm {
+        max-width: $breakpoint_md;
+    }
+}
+
+@include mobile {
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: $breakpoint_sm;
+    }
+}
+
+@include mobile_s {
+    .container,
+    .container-sm {
+        max-width: $breakpoint_xsm;
+    }
+}
